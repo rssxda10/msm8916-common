@@ -277,6 +277,11 @@ TARGET_LD_SHIM_LIBS := \
 # Snapdragon LLVM
 TARGET_USE_SDCLANG := true
 
+# System-as-root
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+BOARD_KERNEL_CMDLINE += skip_initramfs rootwait ro init=/init root=/dev/dm-0
+BOARD_KERNEL_CMDLINE += dm=\"system none ro,0 1 android-verity /dev/mmcblk0p25\"
+
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
 
