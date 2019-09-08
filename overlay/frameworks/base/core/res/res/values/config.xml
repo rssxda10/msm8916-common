@@ -15,6 +15,8 @@
         <item>"/system/framework/arm/boot-core-libart.oat"</item>
         <item>"/data/dalvik-cache/arm/system@framework@boot.oat"</item>
         <item>"/data/dalvik-cache/arm/system@framework@services.jar@classes.dex"</item>
+        <item>"/apex/com.android.runtime/javalib/core-oj.jar"</item>
+        <item>"/apex/com.android.runtime/javalib/core-libart.jar"</item>
+        <item>"/apex/com.android.media/javalib/updatable-media.jar"</item>
    </string-array>
-
 </resources>
